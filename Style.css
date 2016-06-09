@@ -1,0 +1,185 @@
+body
+{
+	margin-top: 15pt;
+	font-size: 15pt;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #A4A4A4;
+}
+
+/* Header Stuff */
+
+header
+{
+	background-color: #151515;
+	padding-top: 15pt;
+	padding-bottom: 1pt;
+}
+
+/* Section Stuff */
+
+section
+{
+	width: 70%;
+	margin-left: 14%;
+	margin-right: 15;
+	margin-top: 5pt;
+	border: 1px solid black;
+	padding: 5pt;
+	background-color: #778899;
+}
+
+/* Nav Bar */
+
+#navbar table
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20pt;
+	padding: 1pt 30pt 20pt 30pt;
+	font-size: 18pt;
+}
+
+#navbar td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-color: grey;
+	margin: 10pt 0pt 20pt 10%;
+	padding: 0px 0px 0px 0px;
+	font-size: 18pt;
+}
+
+#navbar a
+{
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 20px 0px 0px 0px;
+	height: 45px;
+	width: 130px;
+	text-align: center;
+}
+
+#navbar a:visited
+{
+	color: blue;
+}
+
+#navbar a:hover
+{
+	background-color: #2E2E2E;
+	color: #FFFFFF;
+}
+
+/* Art Gallery Stuff */
+
+#art li
+{
+	padding-right: 10px;
+	display: inline;
+}
+
+/* Classes Here */
+
+.floatright
+{
+	float: right;
+}
+
+.floatleft
+{
+	float: left;
+}
+
+div.clear
+{
+	clear: both;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.tinytext
+{
+	font-size: 8pt;
+}
+
+.center
+{
+	text-align: center;
+}
+
+img.displaycenter
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.dotamap
+{
+	float: right;
+	height: 250px;
+	width: 250px;
+}
+
+img.faceshot
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 185px;
+}
+
+/* Chat Page Stuff */
+
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { padding-top:18px; }
+  
+    #loginform p { margin: 5px; }
+  
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:395px;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }

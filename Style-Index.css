@@ -1,0 +1,146 @@
+body
+{
+	margin-top: 15pt;
+	font-size: 15pt;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background-color: #A4A4A4;
+}
+
+/* Header Stuff */
+
+header
+{
+	background-color: #151515;
+	padding-top: 15pt;
+	padding-bottom: 1pt;
+}
+
+/* Section Stuff */
+
+section
+{
+	width: 70%;
+	margin-top: 5pt;
+	border: 1px solid black;
+	padding: 5pt;
+	background-color: #778899;
+}
+
+#old
+{
+	margin-left: 12%;
+	margin-right: 15%;
+	border: 1px solid black;
+	padding: 5pt;
+	background-color: #778899;
+}
+
+#latest
+{
+	float: left;
+	width: 70%;
+	border: 1px solid black;
+	padding: 5pt;
+	background-color: #778899;
+}
+
+/* Side Bar */
+
+article
+{
+	float: left;
+	margin: 5pt;
+	border: 1px solid black;
+	padding: 5pt;
+	width: 10%;
+}
+
+#donate
+{
+	float: left;
+	margin: 5pt;
+	padding: 5pt;
+	width: 10%;
+}
+
+/* Nav Bar */
+
+#navbar table
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20pt;
+	padding: 1pt 30pt 20pt 30pt;
+	font-size: 18pt;
+}
+
+#navbar td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-color: grey;
+	margin: 10pt 0pt 20pt 10%;
+	padding: 0px 0px 0px 0px;
+	font-size: 18pt;
+}
+
+#navbar a
+{
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	padding: 20px 0px 0px 0px;
+	height: 45px;
+	width: 130px;
+	text-align: center;
+}
+
+#navbar a:visited
+{
+	color: blue;
+}
+
+#navbar a:hover
+{
+	background-color: #2E2E2E;
+	color: #FFFFFF;
+}
+
+/* Classes Here */
+
+.floatright
+{
+	float: right;
+}
+
+.floatleft
+{
+	float: left;
+}
+
+div.clear
+{
+	clear: both;
+}
+
+.tinytext
+{
+	font-size: 8pt;
+}
+
+.center
+{
+	text-align: center;
+}
+
+img.displaycenter
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
